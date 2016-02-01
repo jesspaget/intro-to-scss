@@ -1,3 +1,24 @@
 html {
 	font-family: $megrim;
 }
+
+h1 {
+	font-size: $large;
+	text-align: $center;
+}
+
+h2 {
+	color: $primary;
+
+	@media only screen and (min-width: 30em) {
+			font-size: $medium;
+		}
+}
+
+.btn {
+	@include btn;
+}
+
+li {
+	@include list;
+}

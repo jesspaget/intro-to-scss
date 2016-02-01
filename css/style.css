@@ -2,6 +2,42 @@ html {
   font-family: "Megrim", cursive;
 }
 
+h1 {
+  font-size: 3.5em;
+  text-align: center;
+}
+
+h2 {
+  color: #FED245;
+}
+
+@media only screen and (min-width: 30em) {
+  h2 {
+    font-size: 3em;
+  }
+}
+
+.btn {
+  color: #000;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 5em;
+  border-radius: 100%;
+  display: block;
+  margin-top: 0 auto;
+  margin-bottom: 0 auto;
+  text-align: center;
+  width: 100%;
+  height: 1.5em;
+}
+
+li {
+  font-size: 1em;
+  list-style-type: none;
+  text-align: center;
+  padding-bottom: .5rem;
+}
+
 .grid {
   margin: 0;
   padding: 0;
