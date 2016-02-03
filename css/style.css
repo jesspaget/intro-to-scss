@@ -32,11 +32,25 @@ h2 {
   height: 1.5em;
 }
 
+.btn:hover {
+  font-size: 5.5em;
+}
+
+ul {
+  padding: 0;
+}
+
 li {
   font-size: 1em;
   list-style-type: none;
   text-align: center;
   padding-bottom: .5rem;
+}
+
+@media only screen and (min-width: 38em) {
+  li {
+    font-size: 1.5em;
+  }
 }
 
 @media only screen and (min-width: 60em) {
