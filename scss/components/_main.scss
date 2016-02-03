@@ -4,21 +4,47 @@ html {
 
 h1 {
 	font-size: $large;
-	text-align: $center;
+	text-align: $ctr;
 }
 
 h2 {
 	color: $primary;
+	text-align: $ctr;
 
-	@media only screen and (min-width: 30em) {
+	@media only screen and (min-width: 38em) {
 			font-size: $medium;
 		}
 }
 
 .btn {
 	@include btn;
+	&:hover{
+		font-size: $xlarge;
+	}
+}
+
+ul {
+	padding: $none;
 }
 
 li {
 	@include list;
+
+	@media only screen and (min-width: 38em) {
+		font-size: $xsmall;
+	}
+
+	@media only screen and (min-width: 60em) {
+		font-size: $small;
+	}
+}
+
+.footer {
+	@include footer;
+
+	a {
+		text-decoration: $deco;
+		color: $primary;
+		font-size: $xsmall;
+	}
 }
